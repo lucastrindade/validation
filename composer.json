@@ -1,0 +1,29 @@
+{
+  "name": "autoaction/validation",
+  "description": "Data validation",
+  "keywords": ["php", "validation"],
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=7.0",
+    "rakit/validation": "^0.22.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.8 < 6.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "AutoAction\\Validation\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AutoAction\\Validation\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
